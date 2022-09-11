@@ -1,1 +1,3 @@
 # refactoring-page
+
+This is a code refactor exercise. The original code positioned elements on the page awkwardly. Setting a minimum width for the body prevented the elements from collapsing onto each other when the page is reduced.  The links were also not working properly. Images did not have any “alt” attributes. There was a multiplicity of classes with the same property value pairs. I condensed these classes under the same selectors increasing readability and avoiding repetition.
